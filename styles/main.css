@@ -5,10 +5,56 @@ body {
 .header {
   margin-top: 50px;
   width: 100%;
+  z-index:5;
+  min-height: 600px;
 }
 
 .c-white {
   width: 100%;
   background-color: #fff;
   padding: 20px;
+}
+
+.headerimg {
+  width: 800px;
+  height: 600px;
+}
+
+.headerimgcontainer {
+  z-index:1;
+  position:absolute;
+  max-width:80%;
+}
+
+.main-content {
+  z-index:5;
+  padding: 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+blockquote {
+  border-left: 4px solid grey;
+  /*margin-left: 15px;*/
+  padding: 15px;
+}
+
+blockquote footer {
+  color: #555;
+}
+
+.contentpad {
+  padding: 15px;
+}
+
+.visitul {
+  border-left: 4px solid grey;
+}
+
+.fadewhite {
+  background-color: rgba(255,255,255,0.4);
+  padding: 30px;
 }
